@@ -1,0 +1,13 @@
+Cleric	skipped
+Monk	ok:13
+Ranger	ok:17
+Rogue	ok:15
+Warrior	ok:17
+Wizard	ok:18
+Cleric_Staff	ok:1
+Ranger_Arrow	ok:2
+Ranger_Bow	skipped
+Rogue_Dagger	ok:2
+Warrior_Sword	ok:2
+Wizard_Staff	ok:2
+SUMMARY	ok=10 skipped=2 fail=0

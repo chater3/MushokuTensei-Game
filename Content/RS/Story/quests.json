@@ -1,0 +1,85 @@
+[
+ {
+  "id": "qw",
+  "title": "Волчья угроза",
+  "desc": "Истребить5 серых волков у дорог.",
+  "type": "kill",
+  "enemy": "wolf",
+  "count": 5,
+  "rank": 0,
+  "pts": 30,
+  "gold": 100,
+  "xp": 120
+ },
+ {
+  "id": "qe",
+  "title": "Картографическое бюро",
+  "desc": "Пять раз выйти в поле: исследовать локации.",
+  "type": "explore",
+  "count": 5,
+  "rank": 0,
+  "pts": 25,
+  "gold": 80,
+  "xp": 100
+ },
+ {
+  "id": "qg",
+  "title": "Гоблины у дорог",
+  "desc": "Уничтожить4 гоблинов.",
+  "type": "kill",
+  "enemy": "goblin",
+  "count": 4,
+  "rank": 1,
+  "pts": 45,
+  "gold": 150,
+  "xp": 180
+ },
+ {
+  "id": "qb",
+  "title": "Разбои на тракте",
+  "desc": "Победить5 разбойников.",
+  "type": "kill",
+  "enemy": "bandit",
+  "count": 5,
+  "rank": 1,
+  "pts": 50,
+  "gold": 200,
+  "xp": 220
+ },
+ {
+  "id": "qi",
+  "title": "Ледяной кошмар",
+  "desc": "Победить2 ледяных тролля.",
+  "type": "kill",
+  "enemy": "iceTroll",
+  "count": 2,
+  "rank": 2,
+  "pts": 90,
+  "gold": 350,
+  "xp": 350
+ },
+ {
+  "id": "qs",
+  "title": "Страж руин",
+  "desc": "Победить Хранителя Руин.",
+  "type": "kill",
+  "enemy": "keeper",
+  "count": 1,
+  "rank": 3,
+  "pts": 150,
+  "gold": 500,
+  "xp": 500
+ },
+ {
+  "id": "qd",
+  "title": "Демоническая угроза",
+  "desc": "Победить4 демонов-разбойников.",
+  "type": "kill",
+  "enemy": "demonMarauder",
+  "count": 4,
+  "rank": 4,
+  "pts": 180,
+  "gold": 600,
+  "xp": 600
+ }
+]

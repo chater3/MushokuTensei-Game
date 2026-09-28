@@ -1,0 +1,25 @@
+# Unreal Engine build artifacts
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.vscode/
+
+# Local UE user/config
+*.sln
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# Runtime logs / crash dumps
+*.log
+*.dmp
+
+# OS junk
+Thumbs.db
+desktop.ini

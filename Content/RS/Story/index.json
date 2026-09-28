@@ -1,0 +1,22 @@
+{
+ "scene_count": 203,
+ "chapter_starts": [
+  0,
+  20,
+  55,
+  68,
+  86,
+  117,
+  128,
+  145,
+  156,
+  165,
+  182,
+  195
+ ],
+ "end_indices": [
+  202
+ ],
+ "location_count": 14,
+ "quest_count": 7
+}
