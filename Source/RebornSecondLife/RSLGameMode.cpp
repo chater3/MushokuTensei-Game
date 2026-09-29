@@ -112,13 +112,14 @@ void ARSLGameMode::SpawnBattle(const TArray<FString>& EnemyIds)
 	for (int32 i = 0; i < N; ++i)
 	{
 		// Квадрат/ряды перед игроком: первая линия в 600 ед., далее шаг вглубь.
+		// Z = 0: центр капсулы врага = центру капсулы игрока -> ступни на земле (не парит).
 		const int32 Row = i / Cols;
 		const int32 Col = i % Cols;
 		const int32 ColsThisRow = FMath::Min(N - Row * Cols, Cols);
 
 		const float Forward = 600.f + Row * 350.f;
 		const float Side = (Col - (ColsThisRow - 1) * 0.5f) * 320.f;
-		const FVector Local(Forward, Side, 120.f);
+		const FVector Local(Forward, Side, 0.f);
 		const FVector SpawnLoc = Origin + YawMat.TransformVector(Local);
 
 		ARSLEnemyCharacter* Enemy = GetWorld()->SpawnActor<ARSLEnemyCharacter>(
